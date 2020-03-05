@@ -18,6 +18,8 @@ public class Geometria {
         figuras.add(new Piramide(3,5,6));
         figuras.add(new Esfera(8));
         figuras.add(new Cilindro(2,3));
+        figuras.add(new Triangulo(2,3,5,6,7));
+        figuras.add(new Losango(1,2));
 
 
         for (Figura figura : figuras) {
