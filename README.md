@@ -1,2 +1,3 @@
 # Eng2020_1a01
-Aula01
+Guilherme Albuquerque Rodrigues
+Gabriela Rodrigues Da Silva Pinho
