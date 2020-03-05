@@ -8,9 +8,7 @@ public class Triangulo  extends Poligono implements Perimetro{
 		this.l3 = l3;
 		
 }
-		public Triangulo() {
-			
-		}
+
 		
 		public double area() {
 			return(getBase()*getAltura())/2;
@@ -21,7 +19,13 @@ public class Triangulo  extends Poligono implements Perimetro{
 		public double perimetro() {
 			return l1+l2+l3;
 		}
-		
-		@Override
-		public String toString
+
+	@Override
+	public String toString() {
+		return "Triangulo{" +
+				"l1=" + l1 +
+				", l2=" + l2 +
+				", l3=" + l3 +
+				'}';
+	}
 }
